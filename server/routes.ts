@@ -1,9 +1,9 @@
-import { Router } from './deps.ts';
+import { Router } from "./deps.ts";
 
-import { getAppInfoRoute } from './handler/appInfo.ts';
+import { getAppInfoRoute } from "./handler/appInfo.ts";
 
 const router = new Router();
 
-router.get('/api/v1', getAppInfoRoute);
+router.get("/api/v1", getAppInfoRoute);
 
 export default router;

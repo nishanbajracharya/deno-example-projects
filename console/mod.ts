@@ -1,1 +1,1 @@
-export {default} from './console.ts';
+export { default } from "./console.ts";
